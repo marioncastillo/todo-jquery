@@ -1,11 +1,11 @@
 $(document).ready(function() {
-	$("input").mouseenter(function(e){
+	$("#tarea").keyup(function(e){
 		e.preventDefault();
 		var tarea = $("#tarea").val();
 		if(tarea == ""){
 			alert("Ingresa tu tarea");
 		}else{
-			$('#check').append('<div><span class="center-align">' + tarea + '</span></div>');
+			$('#check').append('<p><input type="checkbox">' + tarea + '</p>');
 		}
 	});
 });
