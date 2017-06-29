@@ -1,1 +1,22 @@
-style.css
+body{
+	background-color: #5E0CC0;
+	color: #5ED7C0;
+}
+
+#uno{
+	background-color:#00A6FF;
+	border-radius: 50%;
+	text-align: center;
+	height: 5%;
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+	color: #5E0CC0;
+
+}
+.boton{
+	background-color: #00A6FF;
+	border-radius: 50%;
+	border-color: #5E0CC0;
+	color: #5E0CC0;
+}
